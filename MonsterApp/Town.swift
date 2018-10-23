@@ -17,6 +17,10 @@ struct Town {
     }
     
     mutating func setTownPopulation (to newPopulation: Int) {
+        if abs(newPopulation) >= population {
+            population = 0
+        }
         population += newPopulation
+        
     }
 }

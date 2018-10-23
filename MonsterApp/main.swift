@@ -9,8 +9,6 @@
 import Foundation
 
 var town = Town()
-town.setTownPopulation(to: 5_423)
-
 let fredZombie = Zombie()
 fredZombie.town = town
 fredZombie.terrorizeTown()
