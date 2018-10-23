@@ -7,10 +7,18 @@
 //
 
 import Foundation
-
+/*
 var town = Town()
 let fredZombie = Zombie()
 fredZombie.town = town
 fredZombie.terrorizeTown()
 fredZombie.town?.getTownDescription()
+*/
+
+var town = Town()
+
+let newVampire = Vampire()
+newVampire.town = town
+newVampire.terrorizeTown()
+print(newVampire.vampires)
 

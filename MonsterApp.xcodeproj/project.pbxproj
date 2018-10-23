@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2214946E217F8840001AE261 /* Vampire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2214946D217F8840001AE261 /* Vampire.swift */; };
 		227E7A33217DE617007A429F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E7A32217DE617007A429F /* main.swift */; };
 		227E7A3A217DE70F007A429F /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E7A39217DE70F007A429F /* Town.swift */; };
 		227E7A3C217DEC96007A429F /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E7A3B217DEC96007A429F /* Monster.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2214946D217F8840001AE261 /* Vampire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vampire.swift; sourceTree = "<group>"; };
 		227E7A2F217DE617007A429F /* MonsterApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		227E7A32217DE617007A429F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		227E7A39217DE70F007A429F /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				227E7A3B217DEC96007A429F /* Monster.swift */,
 				227E7A3D217DEE2D007A429F /* Zombie.swift */,
 				227E7A39217DE70F007A429F /* Town.swift */,
+				2214946D217F8840001AE261 /* Vampire.swift */,
 			);
 			path = MonsterApp;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 				227E7A33217DE617007A429F /* main.swift in Sources */,
 				227E7A3E217DEE2D007A429F /* Zombie.swift in Sources */,
 				227E7A3C217DEC96007A429F /* Monster.swift in Sources */,
+				2214946E217F8840001AE261 /* Vampire.swift in Sources */,
 				227E7A3A217DE70F007A429F /* Town.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
