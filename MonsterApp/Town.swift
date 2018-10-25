@@ -9,8 +9,26 @@
 import Foundation
 
 struct Town {
+    let region = "South"
     var population = 5_422
     var numberOfStopLights = 4
+    
+    enum Size {
+        case small
+        case medium
+        case large
+    }
+    
+    lazy var townSize: Size = {
+        switch self.population {
+        case 0...10_000:
+            return Size.small
+        case 10_001...100_000:
+            return Size.medium
+        default:
+            Size.large
+        }
+    }
     
     func getTownDescription () {
         print( "population is \(population) and lights are \(numberOfStopLights)")
