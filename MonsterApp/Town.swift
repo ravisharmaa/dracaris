@@ -26,9 +26,9 @@ struct Town {
         case 10_001...100_000:
             return Size.medium
         default:
-            Size.large
+            return Size.large
         }
-    }
+    }()
     
     func getTownDescription () {
         print( "population is \(population) and lights are \(numberOfStopLights)")
