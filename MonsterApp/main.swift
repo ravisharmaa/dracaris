@@ -24,11 +24,11 @@ print(newVampire.vampires)
 */
 
 var myTown = Town()
-let myTownSize = myTown.townSize
-print(myTownSize)
-myTown.setTownPopulation(to: 1_000_000)
+
 
 let fredZombie = Zombie()
 fredZombie.town = myTown
-fredZombie.terrorizeTown()
-fredZombie.town?.getTownDescription()
+print(fredZombie.victimPool)
+fredZombie.victimPool = 500
+print(fredZombie.town?.population ?? 0)
+
