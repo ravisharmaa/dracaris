@@ -10,7 +10,12 @@ import Foundation
 
 struct Town {
     let region = "South"
-    var population = 5_422
+    
+    var population = 5_422 {
+        didSet {
+            print("the pop changed to \(population) from \(oldValue)")
+        }
+    }
     var numberOfStopLights = 4
     
     enum Size {

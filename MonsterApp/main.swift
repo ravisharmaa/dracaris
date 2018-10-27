@@ -30,5 +30,5 @@ let fredZombie = Zombie()
 fredZombie.town = myTown
 print(fredZombie.victimPool)
 fredZombie.victimPool = 500
-print(fredZombie.town?.population ?? 0)
+
 
