@@ -12,6 +12,12 @@ class Monster {
     var town: Town?
     var name = "Monster"
     
+    static var isTerryfying = true
+    
+    class var spookyNoise: String {
+        return "Gr..."
+    }
+    
     var victimPool: Int {
         get {
             return town?.population ?? 0

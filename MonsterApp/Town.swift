@@ -9,7 +9,7 @@
 import Foundation
 
 struct Town {
-    let region = "South"
+    static let region = "South"
     
     var population = 5_422 {
         didSet {
