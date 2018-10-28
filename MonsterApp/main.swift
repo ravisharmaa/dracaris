@@ -23,12 +23,15 @@ newVampire.terrorizeTown()
 print(newVampire.vampires)
 */
 
-var myTown = Town()
+//var myTown = Town()
+//
+//
+//let fredZombie = Zombie()
+//fredZombie.town = myTown
+//print(fredZombie.victimPool)
+//fredZombie.victimPool = 500
+//print(Zombie.spookyNoise)
 
+var myTown = Town(region:"West",population: 10_000, stopLights:6)
 
-let fredZombie = Zombie()
-fredZombie.town = myTown
-print(fredZombie.victimPool)
-fredZombie.victimPool = 500
-print(Zombie.spookyNoise)
-
+print(myTown.getTownDescription())
